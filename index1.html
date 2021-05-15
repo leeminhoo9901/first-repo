@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Form báo cáo nhận bài dịch</title>
+</head>
+<body>
+    <p><b>Những thông tin cần báo cáo khi nhận tài liệu dịch</b></p>
+
+    <form>
+        <p>
+            Tên tài liệu nhận dịch<br />
+            <input type="text"/>
+        </p>
+        <p>
+    Dịch nhóm<br />
+    <input type="checkbox"/>
+        </p>
+        <p>
+            Dịch solo<br />
+            <input type="checkbox"/>
+        </p>
+<p>
+    Ngôn ngữ dịch<br />
+    <input type="radio" name="ngôn ngữ" checked="checked"/>Nhật-Việt<br />
+    <input type="radio" name="ngôn ngữ"/>Việt-Nhật
+</p>
+<p>
+    Tên người phụ trách dịch bài<br />
+    <section>
+        <optgroup label="Nhóm intern">
+             <option>Nguyễn Phan Hoài Linh</option>
+             <option>Nguyễn Thị Thu Thương</option>
+        </optgroup>
+
+       <optgroup label="Nhóm comtor">
+             <option>Nguyễn Thảo Nguyên</option>
+             <option>Nguyễn Ngọc Mai Chi</option>
+       </optgroup>
+       
+    </section>
+</p>
+<p>
+    Nhập thời gian dịch<br />
+    <textarea name="Nhập thời gian dịch" cols="10" rows="1"></textarea>
+</p>
+<p>
+    Chọn file dịch đính kèm<br />
+    <input type="file"/>
+</p>
+<p>
+    Hiển thị xem trước nội dung file dịch<br />
+    <iframe src="index.html" width="800" height="600" framborder="1">
+    </iframe>
+</p>
+    </form>
+</body>
+</html>
